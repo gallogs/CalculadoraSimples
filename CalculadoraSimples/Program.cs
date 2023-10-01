@@ -7,12 +7,12 @@ internal class Program
         Console.WriteLine("====================Calculadora=====================");
 
         Console.WriteLine("Escolha: 1: + | 2: - | 3: * | 4: %");
-        int? escolha = int.Parse(Console.ReadLine());
+        int? escolha = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Digite o primeiro numero: ");
-        int? numero1 = int.Parse(Console.ReadLine());
+        int? numero1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Digite o segundo numero: ");
-        int? numero2 = int.Parse(Console.ReadLine());
+        int? numero2 = Convert.ToInt32(Console.ReadLine());
 
         switch (escolha)
         {
